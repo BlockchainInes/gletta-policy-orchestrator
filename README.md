@@ -113,8 +113,6 @@ without publishing the underlying compliance dataset.
 
 The design deliberately keeps policy execution and evidence processing outside the EVM while using Solidity registries for policy anchoring and authorization verification.
 
-See [`docs/architecture.md`](docs/architecture.md) for the architectural rationale.
-
 ---
 
 ## Decision Model
@@ -408,8 +406,6 @@ The architecture enforces explicit authorization and policy invariants:
 - policy hash and version must match the active registry state
 - `REVIEW` decisions cannot be persisted as final on-chain authorizations
 
-Additional security considerations are documented in [`docs/threat-model.md`](docs/threat-model.md).
-
 ---
 
 ## Repository Structure
@@ -423,9 +419,7 @@ gletta-policy-orchestrator/
 │       └── IPolicyRegistry.sol
 ├── docs/
 │   ├── decisions/
-│   ├── architecture.md
-│   ├── DEPLOYMENTS.md
-│   └── threat-model.md
+│   └── DEPLOYMENTS.md
 ├── script/
 │   └── Deploy.s.sol
 ├── src/
