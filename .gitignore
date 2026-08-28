@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+
+node_modules/
+cache/
+out/
+broadcast/
+
+coverage/
+dist/
+
+*.log
+.DS_Store
+Thumbs.db
