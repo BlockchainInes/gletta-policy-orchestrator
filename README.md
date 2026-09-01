@@ -12,14 +12,6 @@ The architecture separates high-frequency policy evaluation from the minimal sta
 
 ---
 
-## Digital Asset Authorization Console
-
-Reference integration demonstrating policy-controlled institutional settlement authorization across the off-chain policy engine and on-chain authorization layer.
-
-![Gletta Digital Asset Authorization Console](docs/images/gletta-console.png)
-
----
-
 ## Verified Sepolia Deployment
 
 | Contract | Address | Verification |
