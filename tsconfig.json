@@ -13,6 +13,7 @@
   },
   "include": [
     "src/**/*.ts",
-    "test-ts/**/*.ts"
+    "test-ts/**/*.ts",
+    "api/**/*.ts"
   ]
 }
